@@ -17,6 +17,7 @@ expand = true
 stretch_mode = 5
 
 [node name="Area2D" type="Area2D" parent="Image"]
+visible = false
 position = Vector2( 25, 25 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Image/Area2D"]

@@ -86,6 +86,7 @@ position = Vector2( 225, 30 )
 shape = SubResource( 2 )
 
 [node name="Files" type="Node2D" parent="."]
+visible = false
 
 [node name="A" type="Area2D" parent="Files"]
 position = Vector2( 32, 222 )
