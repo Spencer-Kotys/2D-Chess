@@ -8,4 +8,4 @@
 [node name="Chess Board" parent="." instance=ExtResource( 1 )]
 
 [node name="BlackBishop" parent="." instance=ExtResource( 2 )]
-position = Vector2( 116, -9 )
+position = Vector2( 12, 15 )
