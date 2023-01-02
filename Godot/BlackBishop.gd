@@ -1,20 +1,14 @@
 extends Sprite
 
+var grabbed = false
+var mouse_offset = Vector2()
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+func _on_KinematicBody2D_input_event(viewport, event, shape_idx):
+	if event is InputEventMouseButton:
+		print("mouse click")
+		grabbed = event.pressed
+		mouse_offset = position - get_global_mouse_position()
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-
-func _on_Area2D_area_entered(area):
-	print(area)
+func _process(delta):
+	if Input.is_mouse_button_pressed(BUTTON_LEFT) and grabbed:
+		position = get_global_mouse_position() + mouse_offset
