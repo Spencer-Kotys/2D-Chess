@@ -16,3 +16,7 @@ func _on_Image_gui_input(event):
 			prev_pos = position
 		grabbed = event.pressed
 		mouse_offset = position - get_global_mouse_position()
+
+
+func _on_Area2D_area_entered(area):
+	print(area.name)

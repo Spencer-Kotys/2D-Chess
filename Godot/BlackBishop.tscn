@@ -4,17 +4,16 @@
 [ext_resource path="res://Images/BlackBishop.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 31.0
-height = 26.0
+radius = 28.0
+height = 22.0
 
 [node name="BlackBishop" type="Sprite"]
 script = ExtResource( 1 )
 
-[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+[node name="Area2D" type="Area2D" parent="."]
 position = Vector2( 46, 45 )
-input_pickable = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource( 1 )
 
 [node name="Image" type="TextureRect" parent="."]
@@ -26,4 +25,5 @@ texture = ExtResource( 2 )
 expand = true
 stretch_mode = 5
 
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
 [connection signal="gui_input" from="Image" to="." method="_on_Image_gui_input"]
