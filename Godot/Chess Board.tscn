@@ -39,8 +39,615 @@ tile_set = SubResource( 1 )
 format = 1
 tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 1, 0, 3, 1, 0, 4, 0, 0, 5, 0, 0, 6, 1, 0, 7, 1, 0, 8, 0, 0, 9, 0, 0, 10, 1, 0, 11, 1, 0, 12, 0, 0, 13, 0, 0, 14, 1, 0, 15, 1, 0, 65536, 0, 0, 65537, 0, 0, 65538, 1, 0, 65539, 1, 0, 65540, 0, 0, 65541, 0, 0, 65542, 1, 0, 65543, 1, 0, 65544, 0, 0, 65545, 0, 0, 65546, 1, 0, 65547, 1, 0, 65548, 0, 0, 65549, 0, 0, 65550, 1, 0, 65551, 1, 0, 131072, 1, 0, 131073, 1, 0, 131074, 0, 0, 131075, 0, 0, 131076, 1, 0, 131077, 1, 0, 131078, 0, 0, 131079, 0, 0, 131080, 1, 0, 131081, 1, 0, 131082, 0, 0, 131083, 0, 0, 131084, 1, 0, 131085, 1, 0, 131086, 0, 0, 131087, 0, 0, 196608, 1, 0, 196609, 1, 0, 196610, 0, 0, 196611, 0, 0, 196612, 1, 0, 196613, 1, 0, 196614, 0, 0, 196615, 0, 0, 196616, 1, 0, 196617, 1, 0, 196618, 0, 0, 196619, 0, 0, 196620, 1, 0, 196621, 1, 0, 196622, 0, 0, 196623, 0, 0, 262144, 0, 0, 262145, 0, 0, 262146, 1, 0, 262147, 1, 0, 262148, 0, 0, 262149, 0, 0, 262150, 1, 0, 262151, 1, 0, 262152, 0, 0, 262153, 0, 0, 262154, 1, 0, 262155, 1, 0, 262156, 0, 0, 262157, 0, 0, 262158, 1, 0, 262159, 1, 0, 327680, 0, 0, 327681, 0, 0, 327682, 1, 0, 327683, 1, 0, 327684, 0, 0, 327685, 0, 0, 327686, 1, 0, 327687, 1, 0, 327688, 0, 0, 327689, 0, 0, 327690, 1, 0, 327691, 1, 0, 327692, 0, 0, 327693, 0, 0, 327694, 1, 0, 327695, 1, 0, 393216, 1, 0, 393217, 1, 0, 393218, 0, 0, 393219, 0, 0, 393220, 1, 0, 393221, 1, 0, 393222, 0, 0, 393223, 0, 0, 393224, 1, 0, 393225, 1, 0, 393226, 0, 0, 393227, 0, 0, 393228, 1, 0, 393229, 1, 0, 393230, 0, 0, 393231, 0, 0, 458752, 1, 0, 458753, 1, 0, 458754, 0, 0, 458755, 0, 0, 458756, 1, 0, 458757, 1, 0, 458758, 0, 0, 458759, 0, 0, 458760, 1, 0, 458761, 1, 0, 458762, 0, 0, 458763, 0, 0, 458764, 1, 0, 458765, 1, 0, 458766, 0, 0, 458767, 0, 0, 524288, 0, 0, 524289, 0, 0, 524290, 1, 0, 524291, 1, 0, 524292, 0, 0, 524293, 0, 0, 524294, 1, 0, 524295, 1, 0, 524296, 0, 0, 524297, 0, 0, 524298, 1, 0, 524299, 1, 0, 524300, 0, 0, 524301, 0, 0, 524302, 1, 0, 524303, 1, 0, 589824, 0, 0, 589825, 0, 0, 589826, 1, 0, 589827, 1, 0, 589828, 0, 0, 589829, 0, 0, 589830, 1, 0, 589831, 1, 0, 589832, 0, 0, 589833, 0, 0, 589834, 1, 0, 589835, 1, 0, 589836, 0, 0, 589837, 0, 0, 589838, 1, 0, 589839, 1, 0, 655360, 1, 0, 655361, 1, 0, 655362, 0, 0, 655363, 0, 0, 655364, 1, 0, 655365, 1, 0, 655366, 0, 0, 655367, 0, 0, 655368, 1, 0, 655369, 1, 0, 655370, 0, 0, 655371, 0, 0, 655372, 1, 0, 655373, 1, 0, 655374, 0, 0, 655375, 0, 0, 720896, 1, 0, 720897, 1, 0, 720898, 0, 0, 720899, 0, 0, 720900, 1, 0, 720901, 1, 0, 720902, 0, 0, 720903, 0, 0, 720904, 1, 0, 720905, 1, 0, 720906, 0, 0, 720907, 0, 0, 720908, 1, 0, 720909, 1, 0, 720910, 0, 0, 720911, 0, 0, 786432, 0, 0, 786433, 0, 0, 786434, 1, 0, 786435, 1, 0, 786436, 0, 0, 786437, 0, 0, 786438, 1, 0, 786439, 1, 0, 786440, 0, 0, 786441, 0, 0, 786442, 1, 0, 786443, 1, 0, 786444, 0, 0, 786445, 0, 0, 786446, 1, 0, 786447, 1, 0, 851968, 0, 0, 851969, 0, 0, 851970, 1, 0, 851971, 1, 0, 851972, 0, 0, 851973, 0, 0, 851974, 1, 0, 851975, 1, 0, 851976, 0, 0, 851977, 0, 0, 851978, 1, 0, 851979, 1, 0, 851980, 0, 0, 851981, 0, 0, 851982, 1, 0, 851983, 1, 0, 917504, 1, 0, 917505, 1, 0, 917506, 0, 0, 917507, 0, 0, 917508, 1, 0, 917509, 1, 0, 917510, 0, 0, 917511, 0, 0, 917512, 1, 0, 917513, 1, 0, 917514, 0, 0, 917515, 0, 0, 917516, 1, 0, 917517, 1, 0, 917518, 0, 0, 917519, 0, 0, 983040, 1, 0, 983041, 1, 0, 983042, 0, 0, 983043, 0, 0, 983044, 1, 0, 983045, 1, 0, 983046, 0, 0, 983047, 0, 0, 983048, 1, 0, 983049, 1, 0, 983050, 0, 0, 983051, 0, 0, 983052, 1, 0, 983053, 1, 0, 983054, 0, 0, 983055, 0, 0 )
 
-[node name="TestArea" type="Area2D" parent="."]
-position = Vector2( 193, 194 )
+[node name="A" type="Node2D" parent="."]
+position = Vector2( 65, 960 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TestArea"]
+[node name="A1" type="Area2D" parent="A"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A1"]
 shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="A2" type="Area2D" parent="A"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="A3" type="Area2D" parent="A"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="A4" type="Area2D" parent="A"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="A5" type="Area2D" parent="A"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="A6" type="Area2D" parent="A"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="A7" type="Area2D" parent="A"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="A8" type="Area2D" parent="A"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="A/A8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B" type="Node2D" parent="."]
+position = Vector2( 190, 960 )
+
+[node name="B1" type="Area2D" parent="B"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B1"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B2" type="Area2D" parent="B"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B3" type="Area2D" parent="B"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B4" type="Area2D" parent="B"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B5" type="Area2D" parent="B"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B6" type="Area2D" parent="B"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B7" type="Area2D" parent="B"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="B8" type="Area2D" parent="B"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="B/B8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C" type="Node2D" parent="."]
+position = Vector2( 320, 960 )
+
+[node name="C1" type="Area2D" parent="C"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C1"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C2" type="Area2D" parent="C"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C3" type="Area2D" parent="C"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C4" type="Area2D" parent="C"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C5" type="Area2D" parent="C"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C6" type="Area2D" parent="C"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C7" type="Area2D" parent="C"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="C8" type="Area2D" parent="C"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="C/C8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D" type="Node2D" parent="."]
+position = Vector2( 450, 960 )
+
+[node name="D1" type="Area2D" parent="D"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D1"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D2" type="Area2D" parent="D"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D3" type="Area2D" parent="D"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D4" type="Area2D" parent="D"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D5" type="Area2D" parent="D"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D6" type="Area2D" parent="D"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D7" type="Area2D" parent="D"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="D8" type="Area2D" parent="D"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="D/D8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E" type="Node2D" parent="."]
+position = Vector2( 575, 960 )
+
+[node name="E1" type="Area2D" parent="E"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E1"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E2" type="Area2D" parent="E"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E3" type="Area2D" parent="E"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E4" type="Area2D" parent="E"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E5" type="Area2D" parent="E"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E6" type="Area2D" parent="E"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E7" type="Area2D" parent="E"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="E8" type="Area2D" parent="E"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="E/E8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F" type="Node2D" parent="."]
+position = Vector2( 705, 960 )
+
+[node name="F1" type="Area2D" parent="F"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F1"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F2" type="Area2D" parent="F"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F3" type="Area2D" parent="F"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F4" type="Area2D" parent="F"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F5" type="Area2D" parent="F"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F6" type="Area2D" parent="F"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F7" type="Area2D" parent="F"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="F8" type="Area2D" parent="F"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="F/F8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G" type="Node2D" parent="."]
+position = Vector2( 830, 960 )
+
+[node name="G1" type="Area2D" parent="G"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G1"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G2" type="Area2D" parent="G"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G3" type="Area2D" parent="G"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G4" type="Area2D" parent="G"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G5" type="Area2D" parent="G"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G6" type="Area2D" parent="G"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G7" type="Area2D" parent="G"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="G8" type="Area2D" parent="G"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="G/G8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H" type="Node2D" parent="."]
+position = Vector2( 960, 960 )
+
+[node name="H1" type="Area2D" parent="H"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H1"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H2" type="Area2D" parent="H"]
+position = Vector2( 0, -130 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H2"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H3" type="Area2D" parent="H"]
+position = Vector2( 0, -250 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H3"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H4" type="Area2D" parent="H"]
+position = Vector2( 0, -380 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H4"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H5" type="Area2D" parent="H"]
+position = Vector2( 0, -510 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H5"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H6" type="Area2D" parent="H"]
+position = Vector2( 0, -640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H6"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H7" type="Area2D" parent="H"]
+position = Vector2( 0, -770 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H7"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="H8" type="Area2D" parent="H"]
+position = Vector2( 0, -900 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="H/H8"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
